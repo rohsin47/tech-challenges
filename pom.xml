@@ -34,6 +34,8 @@
 		<module>money-transfer</module>
 		<module>drawing-console</module>
 		<module>portfolio-manager</module>
+		<module>string-accumulator</module>
+		<module>robot-vaccum-cleaner</module>
 	</modules>
 
 	<dependencyManagement>
