@@ -36,6 +36,7 @@
 		<module>portfolio-manager</module>
 		<module>string-accumulator</module>
 		<module>robot-vaccum-cleaner</module>
+		<module>common-codes</module>
 	</modules>
 
 	<dependencyManagement>
