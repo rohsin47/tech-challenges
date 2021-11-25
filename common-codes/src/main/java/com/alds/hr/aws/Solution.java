@@ -12,6 +12,14 @@ public class Solution {
         System.out.println(minimumSwaps(arr, arr.length));
     }
 
+    /**
+        Given a binary array, find the number of minimum adjacent swaps needed to group 1's and 0's.
+        
+        Input : [0,1,0,1] (array with 0 based index)
+        Swaps needed : [0,1,0,1] -> [0,0,1,1] (1 swap from index 1 to index 2)
+
+        Solution : 1
+    */
     public static int minimumSwaps(int[] a, int n) {
         int n0 = 0, i0 = 0, n1 = 0, i1 = 0;
         for (int p = 0; p < a.length; ++p) {
